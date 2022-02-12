@@ -1,0 +1,14 @@
+main {
+  // grid-area: body;
+  // background: url(../images/Home_Gif.gif);
+  // background-size: contain;
+  background: black;
+  background-image: url(../images/Glitched_Black.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    height: 100px;
+  }
+}

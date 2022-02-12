@@ -1,0 +1,85 @@
+.aw-main-wrap {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 56px 1fr 45px;
+  grid-template-areas:
+    "header"
+    "body"
+    "footer";
+}
+
+nav {
+  grid-area: header;
+  background: black;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1024px 1fr;
+  grid-template-areas: ". nav-links .";
+  border-bottom: 2px solid white;
+}
+
+.aw-nav-links {
+  grid-area: nav-links;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  text-transform: capitalize;
+
+  align-items: center;
+
+  li {
+    flex: auto;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.aw-logo {
+  height: 35px;
+}
+
+.aw-social-media {
+  height: 20px;
+}
+
+.aw-button-connect-wallet {
+  background: white;
+  border: none;
+  padding: 4px;
+  font-size: 14px;
+}
+
+footer {
+  grid-area: footer;
+  background: black;
+  color: white;
+  border-top: 2px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1024px 1fr;
+  grid-template-areas: ". footer-links .";
+}
+
+.aw-footer-links {
+  grid-area: footer-links;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-size: 14px;
+
+  .aw-logo {
+    height: 20px;
+  }
+
+  li:not(:first-child) {
+    padding-left: 2rem;
+  }
+
+  .aw-terms-conditions {
+    font-style: italic;
+  }
+}
