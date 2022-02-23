@@ -3,10 +3,6 @@ import './transmission.scss';
 
 class Transmission extends React.Component {
 
-  componentDidMount(){
-    document.querySelectorAll(".ytp-endscreen-content").forEach((el) => el.remove());
-  }
-
   render() {
     return (
       <main>

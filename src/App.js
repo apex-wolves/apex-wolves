@@ -8,9 +8,12 @@ import Transmission from "./views/transmission";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/GPS" element={<GPS />} />
-      <Route path="/TRANSMISSION" element={<Transmission />} />
+      <Route path={process.env.PUBLIC_URL + "/"} element={<Home />} />
+      <Route path={process.env.PUBLIC_URL + "/GPS"} element={<GPS />} />
+      <Route
+        path={process.env.PUBLIC_URL + "/TRANSMISSION"}
+        element={<Transmission />}
+      />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
