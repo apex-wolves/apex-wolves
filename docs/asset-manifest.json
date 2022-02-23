@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apex-wolves/static/css/main.a4e8a84f.css",
-    "main.js": "/apex-wolves/static/js/main.e080579a.js",
+    "main.css": "/apex-wolves/static/css/main.757052a8.css",
+    "main.js": "/apex-wolves/static/js/main.458ea589.js",
     "static/js/787.0d2dc211.chunk.js": "/apex-wolves/static/js/787.0d2dc211.chunk.js",
     "static/media/Glitched_Black.jpg": "/apex-wolves/static/media/Glitched_Black.7cd84e3222289390fb8d.jpg",
     "static/media/JetBrainsMono-BoldItalic.woff2": "/apex-wolves/static/media/JetBrainsMono-BoldItalic.697cf4ff964e25a993da.woff2",
@@ -20,12 +20,12 @@
     "static/media/JetBrainsMono-Thin.woff2": "/apex-wolves/static/media/JetBrainsMono-Thin.70fdf0cdbe6466f7139a.woff2",
     "static/media/logo.svg": "/apex-wolves/static/media/logo.ee926d3e80b696f1451e1eb863219edb.svg",
     "index.html": "/apex-wolves/index.html",
-    "main.a4e8a84f.css.map": "/apex-wolves/static/css/main.a4e8a84f.css.map",
-    "main.e080579a.js.map": "/apex-wolves/static/js/main.e080579a.js.map",
+    "main.757052a8.css.map": "/apex-wolves/static/css/main.757052a8.css.map",
+    "main.458ea589.js.map": "/apex-wolves/static/js/main.458ea589.js.map",
     "787.0d2dc211.chunk.js.map": "/apex-wolves/static/js/787.0d2dc211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4e8a84f.css",
-    "static/js/main.e080579a.js"
+    "static/css/main.757052a8.css",
+    "static/js/main.458ea589.js"
   ]
 }
